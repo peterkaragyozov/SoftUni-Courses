@@ -29,6 +29,6 @@ def print_result(result):
 
 
 guests = input_to_list(int(input()))
-guests_arrived = input_to_list_until_command("END")
+guests_arrived = input_to_list_until_command('END')
 
 print_result(get_not_arrived_guests(guests, guests_arrived))
