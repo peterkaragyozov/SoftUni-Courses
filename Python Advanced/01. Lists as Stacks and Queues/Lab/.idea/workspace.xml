@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd544726-4c5f-4428-bada-fe6425325af9" name="Default Changelist" comment="" />
+    <list default="true" id="cd544726-4c5f-4428-bada-fe6425325af9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +20,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
@@ -32,6 +35,9 @@
       <updated>1599157993146</updated>
       <workItem from="1599157994270" duration="44000" />
       <workItem from="1600585312315" duration="39000" />
+      <workItem from="1602936779153" duration="2241000" />
+      <workItem from="1602940130301" duration="602000" />
+      <workItem from="1602945315836" duration="8000" />
     </task>
     <servers />
   </component>
