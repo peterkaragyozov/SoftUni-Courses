@@ -1,4 +1,4 @@
-function solution(){
+function solution() {
     let robot = {
         meals: {
             apple: {carbohydrate: 1, flavour: 2},
@@ -15,12 +15,12 @@ function solution(){
             flavour: 0
         },
 
-        restock(st,quantity){
-            this.stock[st] +=Number(quantity);
+        restock(st, quantity) {
+            this.stock[st] += Number(quantity);
             return 'Success';
         },
 
-        prepare(meal,quantity){
+        prepare(meal, quantity) {
             for (const mealElement in this.meals[meal]) {
                 if(this.meals[meal][mealElement]*quantity > this.stock[mealElement]){
                     return `Error: not enough ${mealElement} in stock`;
@@ -28,7 +28,7 @@ function solution(){
 
             }
             for (const mealElement in this.meals[meal]) {
-                this.stock[mealElement] -= this.meals[meal][mealElement]*quantity;
+                this.stock[mealElement] -= this.meals[meal][mealElement] * quantity;
             }
             return 'Success';
         },
@@ -39,8 +39,9 @@ function solution(){
 
 
     }
-    return function manager(string){
-        let [cmd,meal,quantity] = string.split(' ');
-        return robot[cmd](meal,quantity);
+
+    return function manager(string) {
+        let [cmd, meal, quantity] = string.split(' ');
+        return robot[cmd](meal, quantity);
     }
 }

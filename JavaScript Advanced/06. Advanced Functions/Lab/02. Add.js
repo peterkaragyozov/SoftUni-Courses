@@ -1,14 +1,14 @@
 function solution(num) {
-    let number = num;
+    const sum = num;
 
-    return add(number)
+    function addNum(num) {
+        return sum + num;
+    };
 
-    function add(numToAdd) {
-        number += Number(numToAdd);
-    }
+    return addNum;
 }
 
 
-let add5 = solution(5);
-console.log(add5(2));
-console.log(add5(3));
+let add = solution(5);
+console.log(add(2));
+console.log(add(3));
