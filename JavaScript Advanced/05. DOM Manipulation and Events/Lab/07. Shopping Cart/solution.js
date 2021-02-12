@@ -1,26 +1,28 @@
 function solve() {
-   const output = document.querySelector('textarea');
-   const cart = [];
+   let cart = {};
+   let resultEl = document.querySelector('.shopping-cart > textarea:nth-child(5)');
 
-   document.querySelector('.shopping-cart').addEventListener('click', (ev) => {
-      if (ev.target.tagName == 'BUTTON' && ev.target.className == 'add-product') {
-         const product = ev.target.parentNode.parentNode;
-         const title = product.querySelector('.product-title').textContent;
-         const price = Number(product.querySelector('.product-line-price').textContent);
+   let addButtons = Array.from(document.querySelectorAll('button.add-product'));
+   addButtons.forEach(btn => btn.addEventListener('click', addToCart));
 
-         cart.push({title, price});
+   let checkoutButton = document.querySelector('.checkout');
+   checkoutButton.addEventListener('click', checkOut);
 
-         output.value += `Added ${title} for ${price.toFixed(2)} to the cart.\n`;
-      }
-   });
+   function addToCart(event) {
+       let element = event.target.parentElement.parentElement;
+       let productName = element.querySelector('div.product-title').textContent;
+       let productPrice = element.querySelector('div.product-line-price').childNodes[0].textContent;
+       if (!cart.hasOwnProperty(productName)) {
+           cart[productName] = {'price': 0}
+       }
+       cart[productName]['price'] += Number(productPrice);
+       resultEl.textContent += `Added ${productName} for ${productPrice} to the cart.\n`
+   }
 
-   document.querySelector('.checkout').addEventListener('click', () => {
-      const result = cart.reduce((acc, c) => {
-         acc.items.push(c.title);
-         acc.total += c.price;
-         return acc;
-      }, { items: [], total: 0 });
-
-      output.value += `You bought ${result.items.join(', ')} for ${result.total.toFixed(2)}.`;
-   });
+   function checkOut() {
+       addButtons.forEach(btn => btn.disabled = true);
+       checkoutButton.disabled = true;
+       let totalPrice = Object.values(cart).reduce((a, c) => a+c.price, 0);
+       resultEl.textContent += `You bought ${Object.keys(cart).join(', ')} for ${totalPrice.toFixed(2)}.`
+   }
 }
