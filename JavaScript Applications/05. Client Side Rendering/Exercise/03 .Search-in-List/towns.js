@@ -1,0 +1,20 @@
+export const towns = [
+    'Sofia',
+    'Ohrid',
+    'Varna',
+    'Blaj',
+    'Plovdiv',
+    'Kriva Palanka',
+    'Pirot',
+    'Istanbul',
+    'Bansko',
+    'Targu Jiu',
+    'Dobrich',
+    'Cluj-Napoca',
+    'Vidin',
+    'Edirne',
+    'Targu Mures',
+    'Kavala',
+    'Brasov',
+    'Veliko Tarnovo'
+];
