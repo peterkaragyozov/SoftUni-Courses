@@ -10,8 +10,13 @@ export const logout = api.logout;
 //Application-specific requests
 
 //get all ads
-export async function getAllListings() {
-    return await api.get(host + '/data/cars?sortBy=_createdOn%20desc');
+export async function getAllListings(page = 1) {
+    return await api.get(host + `/data/cars?sortBy=_createdOn%20desc&offset=${(page - 1) * 6}&pageSize=6`);
+}
+
+//for pagination
+export async function getCollectionSize() {
+    return await api.get(host + '/data/cars?count');
 }
 
 //get ad by id
