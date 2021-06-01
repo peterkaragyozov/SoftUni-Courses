@@ -1,0 +1,26 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+
+body {
+    font-family: Helvetica, sans-serif;
+}
+
+p a {
+    border: 1px solid; 
+    border-radius: 6px;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+article {
+    margin: 30px;
+}
+
+.click {
+    background-color: rgb(0, 128, 0);
+    color: white;
+}
+
+.email {
+    background-color: rgb(255, 140, 0);
+    color: white;
+}
