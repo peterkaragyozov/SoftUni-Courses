@@ -1,0 +1,28 @@
+body {
+    background-color: #EEEEEE;
+}
+
+.page-wrapper {
+    max-width: 1200px;
+    margin: 70px auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    background-color: white;
+    padding: 16px;
+    margin: 16px;
+    display: inline-block;
+    vertical-align: middle;
+    border-width: 0.4rem;
+    border-color: black;
+    border-style: solid;
+    max-width: 304px;
+}
+
+li img {
+    width: 100%;
+}
