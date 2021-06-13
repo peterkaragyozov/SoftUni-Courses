@@ -1,0 +1,48 @@
+@import url(https://use.fontawesome.com/releases/v5.10.2/css/all.css);
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.viewport {
+    height: 100vh;
+    display: block;
+    position: relative;
+}
+
+.card-icon {
+    position: relative;
+    right: 30px;
+    bottom: 18px;
+}
+
+.card-icon i {
+    color: rgb(255, 255, 255);
+}
+
+.card {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+img {
+    box-shadow: 0px 0px 8px 1px #2d2d2d;
+    border-radius: 6px;
+}
+
+.blue {
+    background: rgb(24,90,157);
+    background: linear-gradient(90deg, rgba(24,90,157,1) 0%, rgba(66,205,162,1) 100%);
+}
+
+.orange {
+    background: rgb(168,50,120);
+    background: linear-gradient(90deg, rgba(168,50,120,1) 0%, rgba(210,130,18,1) 100%);
+}
