@@ -1,0 +1,49 @@
+body {
+  background-color: rgb(238, 238, 238);
+  font-family: Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-size: 26px;
+  margin: 0;
+}
+
+h2 {
+  font-family: Georgia, serif;
+  font-size: 1em;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+h1,
+h2,
+p {
+  padding: 10px 0px 0px 40px;
+  margin-right: 65px;
+}
+
+p {
+  font-size: 0.7em;
+}
+
+.site-header {
+  border-bottom: 1px solid black;
+}
+
+.site-title {
+  font-size: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+main {
+  flex-basis: 100%;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  background-color: rgb(102, 102, 102);
+  color: rgb(255, 255, 255);
+}
