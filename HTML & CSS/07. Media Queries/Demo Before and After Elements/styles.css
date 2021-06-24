@@ -1,0 +1,23 @@
+article:nth-child(1)::before {
+    background: url('/1200px-Check_green_icon.svg.png');
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    margin-right: 2px;
+    display: inline-block;
+    content: "";
+}
+
+article:nth-child(2)::after {
+    background: url('/x-icon-png-27.jpg');
+    background-size: contain;
+    width: 15px;
+    height: 15px;
+    position: relative;
+    top: 2px;
+    margin-left: 2px;
+    display: inline-block;
+    content: "";
+}
