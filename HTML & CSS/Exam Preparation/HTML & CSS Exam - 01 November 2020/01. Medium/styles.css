@@ -1,0 +1,71 @@
+html {
+    font-size: 18px;
+}
+
+h1, h2, h3, h4, h5 , h6 {
+    font-family: Georgia, serif;
+    font-weight: 1rem;
+}
+
+p, span, a, button {
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.page-wrapper {
+    max-width: 850px;
+    margin: 50px auto;
+}
+
+.medium-header-title {
+    margin: 6px 0;
+}
+
+.medium-header-subtitle {
+    color: grey;
+    font-weight: 300;
+    margin-top: 6px;
+
+}
+
+.medium-content-cta,
+.medium-content-text {
+    display: inline-block;
+}
+
+.medium-content-text {
+    width: 58%;
+    margin-left: 15%;
+}
+
+.medium-content-text-title {
+    margin-bottom: 6px;
+}
+
+.medium-content-text-title {
+    font-size: 0.9rem;
+    margin: 0 0 20px 0;
+}
+
+.medium-content-text-desc {
+    font-size: 0.9rem;
+    color: grey;
+    margin: 0;
+}
+
+.btn {
+    background-color: #03A87C;
+    color: white;
+    padding: 8px 60px;
+    text-align: center;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+}
+
+.bg-green {
+    background-color: rgb(108 255 108 / 30%);
+}
