@@ -1,0 +1,87 @@
+@import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
+
+html {
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+h1, h2, h3, h4, h5 , h6 {
+    font-family: Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    display: flex;
+    max-width: 1100px;
+    justify-content: space-between;
+    margin: 200px auto;
+}
+
+.left-box {
+    background-color: rgb(227, 243, 253);
+    border-radius: 8px;
+    box-shadow: 0px 4px 5px 0px #a9a8a8;
+    border: 2px solid rgb(228, 232, 234);
+}
+
+.left-box-header {
+    margin-left: 40px;
+    font-weight: 500;
+}
+
+.left-box ul {
+    list-style: none;
+}
+
+.left-box ul li {
+    line-height: 2;
+    padding-right: 30px;
+}
+
+.left-box ul li:before {
+    content: '✓';
+    color: rgb(68, 169, 248);
+    font-size: 15px;
+    font-weight: bolder;
+    margin-right: 12px;
+  }
+
+.right-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 6px solid rgb(68, 169, 248);
+    border-radius: 8px;
+    padding: 50px 100px;
+}
+
+.btn {
+    display: flex;
+    background-color: rgb(68, 169, 248);
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 14px 50px;
+    border-radius: 6px;
+    border: none;
+    box-shadow: 0px 3px 7px 0px #a9a8a8;
+    margin-top: 15px;
+}
+
+span {
+    color: rgb(68, 169, 248);
+    font-weight: bolder;
+    font-size: 1.6em;
+}
