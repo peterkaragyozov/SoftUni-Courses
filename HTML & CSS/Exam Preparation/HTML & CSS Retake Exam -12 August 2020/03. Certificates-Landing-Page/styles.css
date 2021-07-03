@@ -1,0 +1,219 @@
+@import url("https://use.fontawesome.com/releases/v5.15.2/css/all.css");
+
+html {
+  box-sizing: border-box;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 1.5em;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  max-width: 1600px;
+}
+
+.page-header {
+  background: linear-gradient(
+      0deg,
+      rgb(248 248 248 / 61%),
+      rgb(220 219 220 / 81%)
+    ),
+    url(./images/hero-certificates.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  width: 90%;
+  align-items: center;
+  padding: 0 30px;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 3px 6px 8px 0px #888888;
+}
+
+.list ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.list ul li {
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.list ul button {
+  background-color: rgb(66, 171, 248);
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  box-shadow: 2px 1px 3px 0px rgb(110 138 159);
+}
+
+.logo-logo {
+  width: 120px;
+}
+
+.logo-logo img {
+  width: 100%;
+}
+
+.two-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.certificates-content {
+  color: white;
+  margin: 50px 60px 50px 120px;
+}
+
+.certificates-content-wrapper {
+  background-color: rgb(41, 57, 75);
+  padding: 2px 20px 20px 20px;
+  border-radius: 6px;
+}
+
+.certificates-content-text-undernote {
+  color: rgb(41, 57, 75);
+  font-style: italic;
+  font-weight: 400;
+  padding: 10px 0;
+}
+
+.certificates-img {
+  display: flex;
+  align-items: flex-end;
+  margin: 50px 120px 50px 60px;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 80px;
+}
+
+.main-content-box {
+  background-color: rgb(244, 245, 247);
+  padding: 15px 20px 30px 20px;
+}
+
+.main-content-underline {
+  align-self: flex-start;
+}
+
+.explore-explore {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(
+      0deg,
+      rgb(33 103 181 / 56%),
+      rgb(75 124 179 / 20%)
+    ),
+    url(./images/sign-up-prompt-background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 80px;
+  color: white;
+}
+
+.explore-heading {
+  margin: 20px 20px 0 20px;
+}
+
+.explore-box {
+  display: flex;
+}
+
+.button-container {
+  margin: 20px;
+}
+
+.button-container:nth-child(1) {
+  border-right: 2px solid white;
+  padding-right: 40px;
+}
+
+.apply {
+  background-color: white;
+  color: rgb(66, 171, 248);
+  padding: 10px 30px;
+  border-radius: 5px;
+  font-weight: 600;
+}
+
+.curriculum {
+  background-color: transparent;
+  color: white;
+  padding: 10px 50px;
+  border-radius: 5px;
+  border-color: rgb(199, 201, 203);
+  font-weight: 600;
+}
+
+footer {
+    display: flex;
+    border: none;
+    border-top: 2px solid gray;
+    justify-content: space-between;
+    background-color: white;
+    width: 90%;
+    padding: 10px 30px;
+    margin: 0 auto;
+  }
+
+  .footer-left-wrapper {
+      display: flex;
+      align-items: center;
+  }
+  
+  .footer-list {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .footer-list li {
+    margin: 5px;
+  }
+  
+  
+  .footer-logo {
+    width: 120px;
+    margin-right: 20px;
+  }
+
+  .copyrights {
+      color: gray;
+      font-size: 0.8em;
+  }
+  
+  .footer-logo img {
+    width: 100%;
+  }
