@@ -1,0 +1,39 @@
+@media all and (max-width: 600px) {
+  .banner h2 {
+    border-style: double solid;
+    border-width: 4px 1px;
+    font-size: 1.4em;
+    line-height: 1.35em;
+    margin: 0px auto 1em;
+    padding: 1.1em;
+    width: 80%;
+  }
+
+  .banner p {
+    font-size: 1em;
+  }
+
+  .feature {
+    width: 100%;
+  }
+
+  .wrapper > .inner {
+    width: 100%;
+	}
+
+  .wrapper > .inner.narrow {
+    width: 100%;
+  }
+
+  .grid-form .form-control.narrow {
+    width: 100%;
+  }
+
+  .actions li {
+    width: 80%;
+  }
+
+  .actions li input, .actions li a {
+    width: 100%;
+  }
+}
