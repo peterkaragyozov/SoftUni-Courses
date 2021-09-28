@@ -9,5 +9,5 @@
 * Python Web Basics
 * JavaScript Advanced
 * JavaScript Applications
-* HTML & CSS (currently in progress)
-* Angular (remains to be completed)
+* HTML & CSS
+* Angular
